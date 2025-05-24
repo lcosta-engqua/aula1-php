@@ -73,3 +73,35 @@ mora no bairro $endereco[1], $endereco[0] número $endereco[2]";
 $mensagem = $nome . " nasceu em " . $data_nascimento . " mora no " . $endereco[1] . " , na " . $endereco[0] . " " . $endereco[2];
 
 echo $mensagem;
+
+echo "<br>";
+
+const NOME = "valor";
+
+echo NOME;
+
+echo "<br>";
+
+//operadores aritméticos
+// % mod - resto da divisão (permite identificar se um número é par ou ímpar)
+// ** - potência
+// ** (1/2) - raiz
+
+//operadore de comparação
+var_dump(8 == "8");
+echo "<br>";
+var_dump(8 != 8);
+echo "<br>";
+var_dump(0 === false);
+echo "<br>";
+var_dump(0 !== false);
+echo "<br>";
+
+//operadores lógicos
+// ! - not negação
+// || - ou
+// && - e
+
+//estruturaas codicionais
+
+
